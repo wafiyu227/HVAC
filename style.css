@@ -751,3 +751,11 @@ footer {
         font-size: 28px;
     }
 }
+.star {
+    color: #ccc;
+    font-size: 1.5rem;
+  }
+  .star.filled {
+    color: gold;
+  }
+  

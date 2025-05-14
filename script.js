@@ -75,3 +75,15 @@
          }
      });
  });
+ document.querySelectorAll('.stars').forEach(starContainer => {
+    const rating = parseInt(starContainer.getAttribute('data-rating'));
+    for (let i = 1; i <= 5; i++) {
+      const star = document.createElement('span');
+      star.classList.add('star');
+      star.innerHTML = '★';
+      if (i <= rating) {
+        star.classList.add('filled');
+      }
+      starContainer.appendChild(star);
+    }
+  });
