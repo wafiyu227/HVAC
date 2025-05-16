@@ -134,14 +134,14 @@ nav ul li a:hover::after {
   color: white;
   text-align: center;
   padding: 150px 20px 100px;
-  background-image: url("/images/team-replacing-old-air-conditioner.jpg");
+  background-image: url("/images/steel-pipelines-cables-plant.jpg");
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
   height: 600px;
 }
 .hero .container{
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 12px;
 }
